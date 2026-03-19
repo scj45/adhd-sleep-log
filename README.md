@@ -65,10 +65,24 @@ Dexamfetamine: [am ▼]
 [Log to file]
 ```
 
-
-## Customization
+## Customisation
 - Edit `main.ts` → reload (full restart).
 - Chart YAML: Use Dataview or Tasks plugin (query `sleep_date`, `total_sleep`).
+
+Repo includes:
+├── main.ts                 # (main changes here!)
+├── manifest.json         	# (metadata changes)
+├── package.json            # (version etc changed)
+├── tsconfig.json           
+├── .gitignore              
+├── LICENSE					# (MIT)                  
+├── README.md               
+├── .editorconfig           
+├── versions.json           
+├── version-bump.mjs        
+├── package-lock.json       # (npm install && git add)
+├── main.js                 # (npm run build)
+└── styles.css             
 
 ## Troubleshooting
 - Old UI? Full restart Obsidian + OFF/ON plugin.
