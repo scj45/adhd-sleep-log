@@ -1,8 +1,28 @@
-/*
+.sleep-log-modal {
+  --width: 500px;
+  --height: 600px;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.sleep-log-modal p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+}
 
-If your plugin does not need CSS, delete this file.
+.sleep-log-modal label {
+  min-width: 140px;
+  font-weight: 500;
+}
 
-*/
+.sleep-log-modal input, .sleep-log-modal select {
+  flex: 1;
+  max-width: 200px;
+}
+
+#save_sleep_btn {
+  background: var(--interactive-accent);
+  color: var(--interactive-accent-foreground);
+  border: none;
+  border-radius: 4px;
+}
